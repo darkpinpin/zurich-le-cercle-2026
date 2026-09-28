@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zurich Insurance Group — Fiche et lettre patrimoniale · 21 septembre 2026</title>
+  <meta name="description" content="Lecture patrimoniale de Zurich Insurance Group Ltd (ZURN). Fiche technique et lettre Le Cercle, 21 septembre 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #efe8dc;
+      --paper: #faf6ee;
+      --ink: #1c1a16;
+      --muted: #5c574e;
+      --line: #d8d0c2;
+      --navy: #0d1f36;
+      --navy-2: #163052;
+      --blue: #1e4f86;
+      --gold: #a8874a;
+      --gold-soft: #e8d7b0;
+      --hold: #2f5d3a;
+      --watch: #8a5a12;
+      --risk: #7a2e2e;
+      --white: #fffdf8;
+      --shadow: 0 18px 50px rgba(13, 31, 54, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Source Sans 3", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    a { color: var(--blue); }
+    .wrap { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    header.top {
+      background: var(--navy);
+      color: #f4efe6;
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      border-bottom: 3px solid var(--gold);
+    }
+    .top-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 0;
+    }
+    .brand { display: flex; flex-direction: column; gap: 2px; }
+    .brand small {
+      letter-spacing: 0.22em;
+      font-size: 10px;
+      text-transform: uppercase;
+      color: var(--gold-soft);
+    }
+    .brand strong {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 22px;
+      font-weight: 600;
+    }
+    nav { display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a {
+      color: #e8e2d6;
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    nav a:hover { color: var(--gold-soft); }
+    .hero {
+      background:
+        linear-gradient(180deg, rgba(13,31,54,0.72), rgba(13,31,54,0.88)),
+        radial-gradient(circle at 80% 20%, #2a4d78 0%, transparent 45%),
+        var(--navy);
+      color: #f7f2ea;
+      padding: 64px 0 56px;
+    }
+    .kicker {
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: var(--gold-soft);
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: "Cormorant Garamond", serif;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: 0.95;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .hero p.lead {
+      max-width: 640px;
+      font-size: 18px;
+      color: #e4ddd0;
+      margin: 18px 0 28px;
+    }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px; }
+    .chip {
+      border: 1px solid rgba(232, 215, 176, 0.35);
+      padding: 7px 12px;
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      color: #f0e8d8;
+    }
+    .chip.hold { background: #244a32; border-color: #3d7a4e; }
+    section { padding: 56px 0; }
+    section.alt { background: var(--paper); }
+    h2 {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 36px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .section-label {
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-size: 11px;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .intro { color: var(--muted); max-width: 720px; margin-bottom: 28px; }
+    .grid-4, .grid-3, .grid-2 { display: grid; gap: 14px; }
+    .grid-4 { grid-template-columns: repeat(4, 1fr); }
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 18px 18px 16px;
+      box-shadow: var(--shadow);
+    }
+    .card .lbl {
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .card .val {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 30px;
+      line-height: 1.05;
+      color: var(--navy);
+    }
+    .card .sub { font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .prose p { margin-bottom: 14px; }
+    .stance {
+      background: var(--navy);
+      color: #f6f1e8;
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 22px;
+      align-items: center;
+    }
+    .stance .tag {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 28px;
+      letter-spacing: 0.08em;
+      border: 1px solid var(--gold);
+      text-align: center;
+      padding: 14px 8px;
+      color: var(--gold-soft);
+    }
+    .stance h3 {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 26px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .stance p { color: #ddd4c4; }
+    .glossary {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border: 1px solid var(--line);
+      background: var(--white);
+    }
+    .glossary article {
+      padding: 20px 22px;
+      border-bottom: 1px solid var(--line);
+    }
+    .glossary article:nth-child(odd) { border-right: 1px solid var(--line); }
+    .glossary h3 { font-size: 16px; margin-bottom: 6px; color: var(--navy); }
+    .glossary p { font-size: 15px; color: var(--muted); }
+    .bar-wrap { margin-top: 28px; }
+    .scale {
+      position: relative;
+      height: 14px;
+      background: linear-gradient(90deg, #c9b48a, #e8dcc3 40%, #d7e0d4 70%, #b7c9b4);
+      border-radius: 99px;
+      margin: 36px 0 12px;
+    }
+    .needle {
+      position: absolute;
+      top: -9px;
+      width: 4px;
+      height: 32px;
+      background: var(--navy);
+      left: calc((598.4 - 520) / (680 - 520) * 100%);
+      transform: translateX(-50%);
+    }
+    .needle::after {
+      content: "598,4";
+      position: absolute;
+      top: -22px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .scale-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .multiples {
+      display: flex;
+      gap: 24px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .multiples strong { color: var(--ink); }
+    .div-chart {
+      display: flex;
+      align-items: flex-end;
+      gap: 18px;
+      height: 180px;
+      margin-top: 12px;
+    }
+    .div-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      height: 100%;
+    }
+    .div-col .bar {
+      width: 100%;
+      max-width: 72px;
+      background: var(--navy);
+      border-radius: 2px 2px 0 0;
+    }
+    .div-col .amt {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+    .div-col .yr { font-size: 13px; color: var(--muted); margin-top: 8px; }
+    .risks { display: grid; gap: 12px; }
+    .risk {
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 18px 20px;
+      display: grid;
+      grid-template-columns: 52px 1fr auto;
+      gap: 16px;
+      align-items: start;
+    }
+    .risk .n {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 26px;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .risk h3 { font-size: 17px; margin-bottom: 4px; }
+    .risk p { color: var(--muted); font-size: 15px; }
+    .lvl {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 5px 8px;
+      border: 1px solid var(--line);
+      white-space: nowrap;
+    }
+    .lvl.high { color: var(--risk); border-color: #d8b4b4; background: #f8ecec; }
+    .lvl.mid { color: var(--watch); border-color: #e4d0a8; background: #f8f1e0; }
+    .watch ul { list-style: none; }
+    .watch li {
+      padding: 10px 0 10px 18px;
+      border-bottom: 1px solid var(--line);
+      position: relative;
+    }
+    .watch li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 18px;
+      width: 8px;
+      height: 8px;
+      background: var(--gold);
+    }
+    footer {
+      background: var(--navy);
+      color: #d5cbb8;
+      padding: 36px 0 44px;
+      font-size: 13px;
+    }
+    footer strong { color: #f3eadb; }
+    footer p { margin-bottom: 10px; max-width: 820px; }
+    @media (max-width: 860px) {
+      .grid-4, .grid-3, .grid-2, .glossary, .stance, .risk { grid-template-columns: 1fr; }
+      .glossary article:nth-child(odd) { border-right: 0; }
+      nav { display: none; }
+      .stance .tag { width: 180px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="brand">
+        <small>Le Cercle · lettre patrimoniale</small>
+        <strong>Zurich Insurance</strong>
+      </div>
+      <nav>
+        <a href="#chiffres">Chiffres</a>
+        <a href="#societe">Société</a>
+        <a href="#lecture">Lecture</a>
+        <a href="#lexique">Lexique</a>
+        <a href="#risques">Risques</a>
+      </nav>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="wrap">
+      <div class="kicker">N° 01 · 21 septembre 2026 · ZURN · SIX Swiss Exchange</div>
+      <h1>Zurich Insurance<br>Group Ltd</h1>
+      <p class="lead">Valeur de rendement de qualité institutionnelle. Assurance diversifiée — dommages, vie et frais Farmers. Lecture fiduciaire, horizon 7 à 10 ans. Ce document n’est pas un ordre d’exécution.</p>
+      <div class="meta">
+        <span class="chip hold">Stance · Garder / Surveiller</span>
+        <span class="chip">ISIN CH0011075394</span>
+        <span class="chip">Cap. ~ CHF 91–92 md</span>
+        <span class="chip">Siège · Zurich</span>
+        <span class="chip">Cours CHF 598,4</span>
+      </div>
+    </div>
+  </div>
+  <section id="chiffres">
+    <div class="wrap">
+      <div class="section-label">02 · Chiffres clés</div>
+      <h2>Ce qui tranche le choix</h2>
+      <p class="intro">Cotation en francs suisses, comptes en dollars. Clôture du 21 septembre 2026. Fourchette annuelle : 521 – 626 CHF.</p>
+      <div class="grid-4">
+        <article class="card"><div class="lbl">Cours ZURN</div><div class="val">CHF 598,4</div><div class="sub">21.09.2026</div></article>
+        <article class="card"><div class="lbl">Capitalisation</div><div class="val">CHF 92 md</div><div class="sub">au 30.06.2026</div></article>
+        <article class="card"><div class="lbl">Dividende</div><div class="val">CHF 30</div><div class="sub">rendement 5,0 %</div></article>
+        <article class="card"><div class="lbl">Combined ratio P&C</div><div class="val">92,6 %</div><div class="sub">FY25 · HY26 : 92,7 %</div></article>
+        <article class="card"><div class="lbl">Core ROE</div><div class="val">26,9 %</div><div class="sub">FY25 · rentabilité cœur · obj. > 23 %</div></article>
+        <article class="card"><div class="lbl">SST</div><div class="val">259 / 266 %</div><div class="sub">YE25 / HY26e · plancher 160 %</div></article>
+        <article class="card"><div class="lbl">Juste valeur</div><div class="val">520–680</div><div class="sub">comité · central ≈ 600 CHF</div></article>
+        <article class="card"><div class="lbl">Cash remonté</div><div class="val">7,4 md $</div><div class="sub">2025 · couvre le coupon ~1,5 à 2×</div></article>
+      </div>
+      <div class="bar-wrap">
+        <div class="scale"><div class="needle"></div></div>
+        <div class="scale-labels">
+          <span>520 CHF · borne basse</span>
+          <span>zone d’accumulation 550–570</span>
+          <span>680 CHF · borne haute</span>
+        </div>
+        <div class="multiples">
+          <span>P/E <strong>environ 16×</strong></span>
+          <span>P/B <strong>3,55×</strong></span>
+          <span>Rendement <strong>5,0 %</strong></span>
+          <span>Marge de sécurité <strong>≈ 0 %</strong></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="societe" class="alt">
+    <div class="wrap">
+      <div class="section-label">01 · Description</div>
+      <h2>La société</h2>
+      <div class="prose" style="max-width:820px">
+        <p>Zurich Insurance Group est une holding d’assurance basée à Zurich. Elle couvre trois métiers : l’assurance dommages (entreprises et particuliers), l’assurance vie (surtout protection et produits liés aux marchés), et Farmers (frais de gestion sur des mutualités américaines, sans les détenir).</p>
+        <p>La franchise est solide : souscription disciplinée, bilan très largement au-dessus du plancher réglementaire, et une machine à cash qui alimente un dividende progressif (30 CHF par action, soit près de 5 % de rendement).</p>
+        <p>Le moat s’appuie sur la diversification géographique, le specialty / middle-market et le modèle Farmers. Un test d’exécution majeur est en cours : l’acquisition de Beazley (Lloyd’s Specialty), closing attendu au second semestre 2026. Si l’intégration réussit, le métier se renforce ; sinon, le rendement du capital en pâtit.</p>
+        <p>Ce n’est pas un titre « bon marché ». Au cours actuel, on paie la qualité.</p>
+      </div>
+    </div>
+  </section>
+  <section id="lecture">
+    <div class="wrap">
+      <div class="section-label">03 · Ce que le cours suppose déjà</div>
+      <h2>Notre lecture</h2>
+      <div class="prose" style="max-width:820px;margin-bottom:28px">
+        <p>Au cours d’environ CHF 598, le marché incorpore déjà l’exécution du cycle 2025-2027, un dividende de CHF 30 ou plus, une solvabilité très élevée, et une partie du succès Specialty / Beazley. Moins clairement dans le prix : le coût d’intégration Beazley, la dilution nette, un éventuel choc catastrophes / climat, et une normalisation des tarifs commerciaux (déjà −1 % au premier semestre 2026).</p>
+      </div>
+      <div class="stance">
+        <div class="tag">GARDER</div>
+        <div>
+          <h3>Bonne société, prix juste. On conserve le rendement, on n’achète pas la décote.</h3>
+          <p>Zurich coche ce qu’un portefeuille patrimonial demande à un assureur : souscription saine, bilan très au-dessus du plancher, cash qui se transforme en dividende croissant. Sur un horizon de 7 à 10 ans, le rendement total attendu vient surtout du coupon (environ 4,5 à 5,5 %) et d’une croissance modérée du dividende — pas d’un rattrapage de cours.</p>
+          <p style="margin-top:10px">Au cours de 598 CHF, le titre est collé à notre juste valeur centrale (~600). Il n’y a pas de marge de sécurité pour un acheteur exigeant. Nous ne vendons pas une machine à cash de cette qualité. Nous ne renforçons pas non plus dans l’urgence. Accumuler plutôt en repli (zone 550–570) ou après clarification de Beazley — solvabilité et résultats pro forma.</p>
+          <p style="margin-top:10px"><em>Conviction : moyenne-haute sur la société · moyenne sur le timing au cours actuel.</em></p>
+        </div>
+      </div>
+      <div style="margin-top:40px">
+        <div class="section-label">Dividende par action</div>
+        <h2 style="font-size:28px">Cinq exercices, en CHF</h2>
+        <p class="intro">La régularité du coupon compte plus que le dernier chiffre. Trajectoire 20 → 30 CHF de 2020 à 2025.</p>
+        <div class="div-chart">
+          <div class="div-col"><div class="amt">22</div><div class="bar" style="height:58%"></div><div class="yr">2021</div></div>
+          <div class="div-col"><div class="amt">24</div><div class="bar" style="height:68%"></div><div class="yr">2022</div></div>
+          <div class="div-col"><div class="amt">26</div><div class="bar" style="height:78%"></div><div class="yr">2023</div></div>
+          <div class="div-col"><div class="amt">28</div><div class="bar" style="height:88%"></div><div class="yr">2024</div></div>
+          <div class="div-col"><div class="amt">30</div><div class="bar" style="height:100%"></div><div class="yr">2025</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="lexique" class="alt">
+    <div class="wrap">
+      <div class="section-label">Pour comprendre</div>
+      <h2>Les mots du mémo</h2>
+      <p class="intro">Lisez cet encart avant les chiffres : le choix garder / augmenter / vendre s’appuie dessus.</p>
+      <div class="glossary">
+        <article><h3>P&C (dommages)</h3><p>L’assurance « property & casualty » : auto, habitation, entreprises. C’est le premier métier de Zurich, celui qui détermine la qualité de la souscription.</p></article>
+        <article><h3>Ratio combiné</h3><p>Ce que l’assureur dépense en sinistres et en frais, rapporté aux primes encaissées. En dessous de 100 %, l’assurance gagne de l’argent avant même les placements. Zurich tourne autour de 93 % : c’est confortable.</p></article>
+        <article><h3>SST</h3><p>Le coussin réglementaire suisse (l’équivalent de Solvabilité II en Europe). Zurich s’impose un plancher de 160 % et affiche plus de 250 %. Plus ce ratio est haut, plus le dividende est à l’abri.</p></article>
+        <article><h3>ROE</h3><p>La rentabilité des fonds propres. Un ROE de 25 à 27 % est élevé pour un assureur. C’est ce qui justifie un cours bien au-dessus de la valeur comptable.</p></article>
+        <article><h3>Remittances</h3><p>L’argent cash que les filiales remontent à la maison mère. C’est ce qui paie réellement le dividende. En 2025, Zurich a remonté 7,4 milliards de dollars.</p></article>
+        <article><h3>Rendement (yield)</h3><p>Dividende annuel divisé par le cours. À 5 %, Zurich verse nettement plus qu’un livret, avec le risque — et la liquidité — d’une action cotée.</p></article>
+        <article><h3>Juste valeur / marge de sécurité</h3><p>Notre estimation de ce que « vaut » le titre, et l’écart avec le cours. Ici, la marge est quasi nulle : le marché paie déjà le juste prix.</p></article>
+        <article><h3>Farmers</h3><p>Aux États-Unis, Zurich gère les Farmers Exchanges et prélève des commissions, sans détenir les risques d’assurance. Un métier de frais, peu gourmand en capital.</p></article>
+        <article><h3>Beazley</h3><p>Assureur britannique (Lloyd’s) que Zurich rachète pour environ 8,1 milliards de livres. C’est le grand test des 18 prochains mois : réussite d’intégration ou dilution du rendement.</p></article>
+        <article><h3>NatCat</h3><p>Les catastrophes naturelles. Un choc climatique majeur peut détériorer le ratio combiné et, un temps, peser sur le cash disponible pour le dividende.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="risques">
+    <div class="wrap">
+      <div class="section-label">04 · Risques matériels</div>
+      <h2>Les risques qui comptent</h2>
+      <div class="risks">
+        <article class="risk"><div class="n">01</div><div><h3>Intégration Beazley</h3><p>Prix élevé (prime ≈ 60 %), financement dette et nouvelles actions : risque de diluer la rentabilité, le ROE et la flexibilité de rachat, et de distraire le management. Closing attendu au second semestre 2026.</p></div><span class="lvl high">Élevé</span></article>
+        <article class="risk"><div class="n">02</div><div><h3>Catastrophes naturelles / climat</h3><p>Un choc fort peut faire monter le combined ratio et presser la solvabilité, malgré un SST actuellement très au-dessus du plancher de groupe (160 %). C’est le risque métier structurel d’un assureur dommages.</p></div><span class="lvl high">Élevé</span></article>
+        <article class="risk"><div class="n">03</div><div><h3>Assouplissement des tarifs commerciaux</h3><p>Déjà −1 % au premier semestre 2026. Si le mouvement se prolonge, les marges dommages peuvent s’éroder en 2026–2028 et remettre en cause le combined ratio sub-100.</p></div><span class="lvl mid">Moyen–élevé</span></article>
+        <article class="risk"><div class="n">04</div><div><h3>Marchés financiers</h3><p>Zurich gère plus de 170 milliards de dollars de placements. Taux, crédit et marchés pèsent sur le résultat d’investissement et l’assurance vie.</p></div><span class="lvl mid">Moyen</span></article>
+        <article class="risk"><div class="n">05</div><div><h3>Réserves et inflation sociale</h3><p>Les dégagements de réserves ont été un peu généreux au semestre (2,4 points). Un retournement — cyber, casualty américain — serait un drapeau jaune.</p></div><span class="lvl mid">Moyen–élevé</span></article>
+      </div>
+      <div class="watch" style="margin-top:40px">
+        <div class="section-label">À surveiller</div>
+        <h2 style="font-size:28px">Points de suivi</h2>
+        <ul>
+          <li>Closing Beazley au second semestre 2026 : prix final, dette, goodwill, solvabilité pro forma.</li>
+          <li>Ratio combiné dommages et détail catastrophes / réserves ; évolution des tarifs entreprises.</li>
+          <li>Cash remonté 2026 et trajectoire vers plus de 19 milliards de dollars cumulés sur 2025–2027.</li>
+          <li>Vie : croissance de la protection et absence d’éléments exceptionnels qui masquent la tendance.</li>
+          <li>Farmers : volume, sinistralité des Exchanges, stabilité de la marge de commissions à 7 %.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="wrap">
+      <p><strong>Sources.</strong> Comptes société, SST, mémo de comité du 21 septembre 2026 (comptes 2025 et semestre 2026) · cadre de pension, horizon 7–10 ans. Devise de cotation : CHF. Les conversions et arrondis éventuels sont ceux du mémo source.</p>
+      <p><strong>Avertissement.</strong> Lecture rédigée pour une lettre patrimoniale — pas une recommandation de courtier, ni un ordre d’exécution. Document interne mis en page pour circulation privée. Les performances passées ne préjugent pas des performances futures. Vérifiez toujours les publications officielles de Zurich Insurance Group avant toute décision.</p>
+    </div>
+  </footer>
+</body>
+</html>
